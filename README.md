@@ -166,7 +166,7 @@ function montantEnLettres(montant, langue) {
 ## Installation locale
 
 ```bash
-git clone https://github.com/VOTRE_USERNAME/monenlet-api.git
+git clone https://github.com/Palongo/monenlet-api.git
 cd monenlet-api
 
 npm install
@@ -200,48 +200,6 @@ Suite de tests :
 - **Tests de validation** — paramètres invalides, erreurs 400/404
 
 ---
-
-## Déploiement
-
-### Railway (recommandé — gratuit)
-
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template)
-
-1. Fork ce dépôt sur GitHub
-2. Créer un projet sur [railway.app](https://railway.app)
-3. Connecter le dépôt GitHub → Railway détecte `railway.toml` automatiquement
-4. Ajouter la variable `API_URL` avec l'URL publique générée par Railway
-5. Deploy ✅
-
-### Render (alternatif — gratuit)
-
-1. Créer un compte sur [render.com](https://render.com)
-2. New → Web Service → connecter le dépôt GitHub
-3. Render détecte `render.yaml` automatiquement
-4. Deploy ✅
-
-### Docker
-
-```bash
-docker build -t monenlet-api .
-docker run -p 3000:3000 -e NODE_ENV=production monenlet-api
-```
-
-### Docker Compose
-
-```yaml
-version: '3.8'
-services:
-  api:
-    build: .
-    ports:
-      - "3000:3000"
-    environment:
-      - NODE_ENV=production
-      - PORT=3000
-      - API_URL=http://localhost:3000
-    restart: unless-stopped
-```
 
 ---
 
