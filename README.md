@@ -241,8 +241,15 @@ tests/
 
 **Justin FARALAHY**
 - 🏢 [MAAS — Managn'Asa](https://managnasa.co) · Nosy Be, Madagascar
-- 📊 [Karamako.mg](https://karamako.mg)
+- 📊 [Karamako.mg](https://karamako.mg) — Transparence salariale Madagascar
+- 🎨 [ARS - Madagascar](https://www.facebook.com/artregnerstudio/) — Art'Régner Studio (ARS)
 
+---
+
+# API/Module
+
+*   "API REST disponible → [monenlet-api](https://monenlet-api.vercel.app/)"
+*   "Module Excel/VBA → [monenlet-vba](https://github.com/Palongo/monenlet-vba.git)"
 ---
 
 ## Licence
