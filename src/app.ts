@@ -68,7 +68,7 @@ app.get('/', (_req, res) => {
     name:        'MONENLET API',
     version:     '1.0.0',
     description: 'Montant en lettres — Malgache · Français · Anglais',
-    author:      'Justin FARALAHY — MAAS (managnasa.co)',
+    author:      'PAL\'DAH Jusfas — Palongo (palongo.co)',
     endpoints: {
       convert_post: 'POST /convert',
       convert_get:  'GET  /convert?amount=&lang=',
@@ -77,7 +77,7 @@ app.get('/', (_req, res) => {
       docs:         'GET  /docs',
     },
     docs:   `${process.env.API_URL ?? 'http://localhost:3000'}/docs`,
-    github: 'https://github.com/VOTRE_USERNAME/monenlet-api',
+    github: 'https://github.com/Palongo/monenlet-api',
   });
 });
 
