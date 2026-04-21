@@ -21,12 +21,12 @@ POST /convert  →  { "amount": 1250.25, "lang": "fr" }
 \`\`\`
 
 ### Auteur
-**Justin FARALAHY** — [MAAS](https://managnasa.co) · [Karamako.mg](https://karamako.mg)
+**PAL'DAH Jusfas** — [Palongo](https://palongo.co)
       `,
       contact: {
-        name:  'Justin FARALAHY — MAAS',
-        url:   'https://managnasa.co',
-        email: 'justin@managnasa.co',
+        name:  'Palongo',
+        url:   'https://palongo.co',
+        email: 'palongo.ddf@gmail.com',
       },
       license: {
         name: 'MIT',
