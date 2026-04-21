@@ -12,7 +12,7 @@
     "lint": "eslint src tests --ext .ts"
   },
   "keywords": ["vba", "malagasy", "french", "english", "amount", "words", "api", "madagascar"],
-  "author": "Justin FARALAHY <justin@managnasa.co>",
+  "author": "Palongo <palongo.ddf@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "cors": "^2.8.5",
